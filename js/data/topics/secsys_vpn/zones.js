@@ -1,0 +1,1 @@
+ZONE_DEFS['secsys_vpn'] = [{label:'Remote / Client',x:0,w:0.2,color:'rgba(255,255,255,0.018)',border:'rgba(255,255,255,0.06)'},{label:'Internet (Untrusted)',x:0.2,w:0.36,color:'rgba(255,60,60,0.015)',border:'rgba(255,60,60,0.07)'},{label:'Corporate Network',x:0.56,w:0.44,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'}];

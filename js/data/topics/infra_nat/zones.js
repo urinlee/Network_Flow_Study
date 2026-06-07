@@ -1,0 +1,1 @@
+ZONE_DEFS['infra_nat'] = [{label:'Internal Zone',x:0,w:0.3,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'},{label:'NAT Border',x:0.3,w:0.26,color:'rgba(255,200,60,0.020)',border:'rgba(255,200,60,0.10)'},{label:'External Zone',x:0.56,w:0.44,color:'rgba(255,60,60,0.015)',border:'rgba(255,60,60,0.07)'}];

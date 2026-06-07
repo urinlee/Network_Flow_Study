@@ -1,0 +1,1 @@
+ZONE_DEFS['secsys_ips'] = [{label:'External Zone',x:0,w:0.28,color:'rgba(255,60,60,0.018)',border:'rgba(255,60,60,0.08)'},{label:'IPS Inline',x:0.28,w:0.26,color:'rgba(255,200,60,0.018)',border:'rgba(255,200,60,0.09)'},{label:'Internal Zone',x:0.54,w:0.46,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'}];

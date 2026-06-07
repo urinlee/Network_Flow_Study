@@ -1,0 +1,1 @@
+ZONE_DEFS['default'] = [{label:'Client Zone',x:0,w:0.22,color:'rgba(255,255,255,0.018)',border:'rgba(255,255,255,0.06)'},{label:'Network Zone',x:0.22,w:0.56,color:'rgba(180,200,255,0.012)',border:'rgba(160,180,255,0.05)'},{label:'Server Zone',x:0.78,w:0.22,color:'rgba(255,200,100,0.012)',border:'rgba(255,200,100,0.05)'}];

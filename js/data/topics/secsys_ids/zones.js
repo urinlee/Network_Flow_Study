@@ -1,0 +1,1 @@
+ZONE_DEFS['secsys_ids'] = [{label:'External Zone',x:0,w:0.22,color:'rgba(255,60,60,0.018)',border:'rgba(255,60,60,0.08)'},{label:'Monitor Zone',x:0.22,w:0.33,color:'rgba(255,200,60,0.015)',border:'rgba(255,200,60,0.07)'},{label:'Internal Zone',x:0.55,w:0.45,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'}];

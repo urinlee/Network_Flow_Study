@@ -1,0 +1,1 @@
+ZONE_DEFS['l3_ip'] = [{label:'Src Network',x:0,w:0.2,color:'rgba(255,255,255,0.018)',border:'rgba(255,255,255,0.06)'},{label:'Core Routing',x:0.2,w:0.6,color:'rgba(180,200,255,0.012)',border:'rgba(160,180,255,0.05)'},{label:'Dst Network',x:0.8,w:0.2,color:'rgba(255,200,100,0.012)',border:'rgba(255,200,100,0.05)'}];

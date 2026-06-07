@@ -1,0 +1,1 @@
+ZONE_DEFS['secsys_siem'] = [{label:'Log Source Zone',x:0,w:0.22,color:'rgba(255,255,255,0.018)',border:'rgba(255,255,255,0.06)'},{label:'SIEM Engine',x:0.22,w:0.44,color:'rgba(255,200,60,0.020)',border:'rgba(255,200,60,0.10)'},{label:'SOC / Response',x:0.66,w:0.34,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'}];
