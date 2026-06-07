@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>네트워크 완전 학습</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="top-banner">
+  <span>🌐 네트워크 &amp; 정보보호 인터랙티브 학습</span>
+  <span>Made with <b style="color:#666">Claude AI</b> · 학습용 시각화 · 애니메이션으로 보는 네트워크 동작 원리</span>
+</div>
+<header>
+  <h1>📡 Network Study</h1>
+  <input class="search-box" id="searchBox" placeholder="토픽 검색... (예: TCP, 방화벽, VPN, IDS)" oninput="filterTopics(this.value)">
+</header>
+<div class="cat-nav" id="catNav"></div>
+<div class="body-row">
+  <div class="topic-list" id="topicList"></div>
+  <div class="canvas-wrap" id="canvasWrap">
+    <canvas id="bgC"></canvas>
+    <canvas id="mainC"></canvas>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="side-panel">
+    <div class="panel-tabs">
+      <div class="ptab active" id="pt-step" onclick="switchPane('step')">단계 설명</div>
+      <div class="ptab" id="pt-gls" onclick="switchPane('gls')">용어 정리</div>
+    </div>
+    <div class="pane show" id="pane-step"></div>
+    <div class="pane" id="pane-gls"></div>
+    <div class="controls">
+      <div class="prog-bar"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+      <div class="btn-row">
+        <button class="btn" onclick="prevStep()">◀ 이전</button>
+        <button class="btn" onclick="nextStep()">다음 ▶</button>
+      </div>
+      <button class="btn primary" id="playBtn" onclick="togglePlay()">▶ 자동 재생</button>
+      <button class="btn" onclick="resetAnim()">↺ 처음으로</button>
+    </div>
+  </div>
+</div>
+<div id="tooltip"><div id="ttTitle"></div><div id="ttBody"></div></div>
+
+<script src="./js/data.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
