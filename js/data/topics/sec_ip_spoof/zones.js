@@ -1,0 +1,1 @@
+ZONE_DEFS['sec_ip_spoof'] = [{label:'Attacker Zone',x:0,w:0.22,color:'rgba(255,60,60,0.025)',border:'rgba(255,60,60,0.12)'},{label:'Internet Zone',x:0.22,w:0.33,color:'rgba(180,200,255,0.012)',border:'rgba(160,180,255,0.05)'},{label:'Target Zone',x:0.55,w:0.45,color:'rgba(255,200,100,0.012)',border:'rgba(255,200,100,0.05)'}];

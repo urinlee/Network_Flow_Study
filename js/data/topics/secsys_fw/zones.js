@@ -1,0 +1,1 @@
+ZONE_DEFS['secsys_fw'] = [{label:'External / Untrusted',x:0,w:0.25,color:'rgba(255,60,60,0.018)',border:'rgba(255,60,60,0.08)'},{label:'Perimeter / DMZ',x:0.25,w:0.35,color:'rgba(255,180,60,0.015)',border:'rgba(255,180,60,0.07)'},{label:'Internal / Trusted',x:0.60,w:0.40,color:'rgba(100,220,150,0.015)',border:'rgba(100,220,150,0.07)'}];

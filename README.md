@@ -10,7 +10,17 @@ network-study-split/
 ├─ css/
 │  └─ style.css        # 전체 스타일
 └─ js/
-   ├─ data.js          # 정적 데이터셋: CATS, TOPICS, LAN_GROUPS
+   ├─ data.js          # 전역 데이터 레지스트리: CATS, TOPICS, ZONE_DEFS, LAN_GROUPS
+   ├─ data/
+   │  ├─ common/
+   │  │  └─ categories.js
+   │  ├─ zones/
+   │  │  └─ default.js
+   │  └─ topics/
+   │     └─ <topic-id>/
+   │        ├─ topic.js # 토픽 본문 데이터
+   │        ├─ zones.js # 토픽별 ZONE_DEFS, 필요 시만 존재
+   │        └─ lan.js   # 토픽별 LAN_GROUPS, 필요 시만 존재
    └─ main.js          # 렌더링, 애니메이션, 이벤트 로직
 ```
 

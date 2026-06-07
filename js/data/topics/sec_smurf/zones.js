@@ -1,0 +1,1 @@
+ZONE_DEFS['sec_smurf'] = [{label:'Attacker Zone',x:0,w:0.22,color:'rgba(255,60,60,0.025)',border:'rgba(255,60,60,0.12)'},{label:'Amplify Zone',x:0.22,w:0.34,color:'rgba(255,160,60,0.022)',border:'rgba(255,160,60,0.09)'},{label:'Victim Zone',x:0.56,w:0.44,color:'rgba(255,200,100,0.012)',border:'rgba(255,200,100,0.05)'}];
